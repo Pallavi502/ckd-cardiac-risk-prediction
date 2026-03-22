@@ -18,3 +18,9 @@ Achieved ~98% accuracy on dataset
 ## Future Scope
 - Use real-time hospital data
 - Improve model generalization
+
+## Screenshots
+
+![Home Page](home.png)
+
+![Result Page](result.png)
