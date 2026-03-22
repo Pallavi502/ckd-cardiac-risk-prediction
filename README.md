@@ -1,16 +1,20 @@
-# CKD Cardiac Risk Prediction
+## Problem Statement
+Chronic Kidney Disease patients are at high risk of cardiac complications. Early prediction helps in preventive care.
 
-This project predicts cardiac risk in CKD patients using a machine learning model integrated with a Django web application.
+## Approach
+- Used XGBoost for classification
+- Processed structured healthcare dataset
+- Integrated model with Django backend
 
-Technologies Used:
-Python, Django, XGBoost, HTML, CSS
+## Features Used
+- Age
+- Blood Pressure
+- Glucose Levels
+- Kidney-related parameters
 
-Features:
-- Real-time data input and prediction
-- Machine learning-based risk analysis
-- Backend data processing
+## Result
+Achieved ~98% accuracy on dataset
 
-Result:
-Achieved ~88% accuracy using XGBoost model on structured dataset.
-## UI
-Includes web interface with input form (home page) and prediction result page
+## Future Scope
+- Use real-time hospital data
+- Improve model generalization
