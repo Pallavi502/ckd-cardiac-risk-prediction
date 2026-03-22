@@ -13,7 +13,7 @@ Chronic Kidney Disease patients are at high risk of cardiac complications. Early
 - Kidney-related parameters
 
 ## Result
-Achieved ~98% accuracy on dataset
+Achieved ~88% accuracy on dataset
 
 ## Future Scope
 - Use real-time hospital data
