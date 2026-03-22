@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediction Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 1.5rem;
+      }
+      p {
+        color: #555;
+        margin-bottom: 1rem;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        background: #f8f9fa;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border-radius: 5px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prediction Result</h1>
+      <p><strong>Risk Level:</strong> {{ risk }}</p>
+      <h2>Recommended Treatments:</h2>
+      <ul>
+        {% for treatment in treatments %}
+        <li>{{ treatment }}</li>
+        {% endfor %}
+      </ul>
+      <a href="{% url 'home' %}">Check Another Patient</a>
+    </div>
+  </body>
+</html>
