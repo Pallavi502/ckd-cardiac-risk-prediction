@@ -21,6 +21,14 @@ Achieved ~98% accuracy on dataset
 
 ## Screenshots
 
-![Home Page](home.png)
+## Screenshots
 
-![Result Page](result.png)
+![Home Page](screenshot 1.png)
+
+![Input Form](screenshot 2.png)
+
+![Prediction Result](screenshot 3.png)
+
+![Model Output](screenshot 4.png)
+
+![System View](screenshot 6.png)
