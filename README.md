@@ -12,3 +12,5 @@ Features:
 
 Result:
 Achieved ~98% accuracy using XGBoost model on structured dataset.
+## UI
+Includes web interface with input form (home page) and prediction result page
