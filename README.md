@@ -21,8 +21,6 @@ Achieved ~88% accuracy on dataset
 
 ## Screenshots
 
-## Screenshots
-
 ![Home Page](Screenshot1.png)
 
 ![Input Form](Screenshot2.png)
